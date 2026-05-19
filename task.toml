@@ -1,0 +1,41 @@
+schema_version = "1.1"
+
+[task]
+name = "codimango/sql-query-optimizer"
+description = "Analyze slow SQL queries and provide optimization recommendations including missing indexes, inefficient joins, and query rewrites"
+keywords = ["sql", "query-optimization", "performance", "database", "indexing"]
+category = "perf_optimization"
+
+[[task.authors]]
+name = "Ayelet Regev Dabah"
+email = "ayeletrd@meta.com"
+
+[metadata]
+difficulty = "medium"
+language = "sql"
+language_other = "python"
+
+[tags]
+domain = "data_science"
+subdomain = "data_science"
+
+[verifier]
+timeout_sec = 600.0
+
+[agent]
+timeout_sec = 600.0
+
+[environment]
+build_timeout_sec = 600.0
+cpus = 1
+memory_mb = 2048
+storage_mb = 10240
+gpus = 0
+allow_internet = true
+mcp_servers = []
+
+[verifier.env]
+
+[environment.env]
+
+[solution.env]
